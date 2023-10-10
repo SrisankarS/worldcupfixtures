@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Fixtures</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- <link rel="stylesheet" href="./css/points.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/userfixtures.css">
+	</head>
+  <header>
+
+    <h1>ICC World Cup 2023 Fixtures</h1>
+     
+  
+  </header>
+
+	<body onload="getFixtureData()">
+		<nav>
+
+      <ul>
+  
+          <li><a href="index.html">Home</a></li>
+  
+          <li><a href="fixture.html">Fixtures</a></li>
+  
+          <li><a href="pointstable.html">Points table</a></li>
+  
+        
+  
+      </ul>
+  
+  </nav> 
+  
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<header><h2 class="heading-section">FIXTURES</header>
+                        <div class="drop">
+                   <label for="teams">Choose a Country:</label>
+
+                    <select name="teams" id="teams" onclick="displayFixtureData(value)">
+                    <option value="All">All</option>
+                      <option value="India">India</option>
+                      <option value="Pakistan">Pakistan</option>
+                      <option value="England">England</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Sri-Lanka">Sri-Lanka</option>
+                      <option value="South-Africa">South-Africa</option>
+                      <option value="New-Zealand">New-Zealand</option>
+                    </select></div>
+				
+			</div>
+			</div>
+        </div>
+	</section>
+    <table >
+        <thead>
+          <tr>
+            <th >Team 1</th>
+            <th id="vs">v</th>
+            <th>Team 2</th>
+            <th>Date </th>
+            <th>Result </th>
+          </tr>
+        </thead>
+        <tbody id="tablefdata">
+          
+        </tbody>
+      </table>
+
+
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="./userscript/script.js"></script>
+  <footer>
+
+    <p>&copy; ICC</p>
+
+</footer>
+	</body>
+</html>

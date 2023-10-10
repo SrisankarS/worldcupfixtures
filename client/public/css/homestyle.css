@@ -1,0 +1,188 @@
+body, h1, h2, h3, p, ul, li {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+ 
+
+header {
+
+    background-color: #451d5f;
+
+    color: rgb(245, 218, 218);
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-style: italic;
+
+}
+
+ 
+
+nav {
+
+    background-color: #851275;
+
+    text-align: center;
+
+}
+
+ 
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 10px;
+
+}
+
+ 
+
+nav ul li {
+
+    display: inline;
+
+    margin-right: 20px;
+
+}
+
+ 
+
+nav a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+ 
+
+main {
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+ 
+
+body{
+
+ font-family: Arial, sans-serif;
+  /* background-image: url("../images/home.webp"); */
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  overflow-x:hidden;
+
+
+}
+
+ 
+
+.cricket-images{
+    
+ /* background-image: url("./pictures/crick8.webp"); */
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  opacity:60%;
+  width: 100%;
+
+
+}
+footer{
+    background-color: #77165f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+    
+    position: absolute;
+
+    bottom:0;
+    width:100%;
+}
+ #slideshow {
+    overflow: hidden;
+    height: 466px;
+    width: 1366px;
+    margin: 0 auto;
+}
+ 
+/* Style each of the sides 
+with a fixed width and height */
+ 
+ .slide {
+    float: left;
+    height: 466px;
+    width: 1366px;
+}
+ 
+/* Add animation to the slides */
+ 
+.slide-wrapper {
+     
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc( 1366px* 4);
+     
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 10s ease infinite;
+}  
+  
+/* Set the background color
+of each of the slides */
+ 
+.slide:nth-child(1) {
+    background-image: url("../images/homecrop.jpg");
+    background-size: cover;
+    
+}
+ 
+.slide:nth-child(2) {
+   background-image: url("../images/kohli.jpg");
+}
+ 
+.slide:nth-child(3) {
+    background-image: url("../images/fixtures.jpg");
+    background-size: cover;
+}
+ 
+.slide:nth-child(4) {
+    background-image: url("../images/boult.jpg");
+    background-size: cover;
+}  
+ 
+/* Define the animation 
+for the slideshow */
+ 
+@keyframes slide { 
+      
+                                        /* Calculate the margin-left for 
+                                    each of the slides */
+   20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-1366px * 1);
+    }
+    60% {
+        margin-left: calc(-1366px * 2);
+    }
+    80% {
+        margin-left: calc(-1366px * 3);
+    }
+} 

@@ -1,0 +1,178 @@
+body, h1, h2, h3, p, ul, li {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-image: url("../images/ballop.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover; 
+    overflow-x: hidden;
+    
+
+}
+
+ 
+
+header {
+
+   
+  background-color: #451d5f;
+
+  color: rgb(245, 218, 218);
+
+  text-align: center;
+
+  padding: 20px;
+
+  font-style: italic;
+  width: 100%;
+
+}
+
+ 
+
+nav {
+
+    background-color: #851275;
+
+    text-align: center;
+    width: 100%;
+}
+
+ 
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 10px;
+    
+
+}
+nav ul li {
+
+    display: inline;
+
+    margin-right: 20px;
+
+}
+
+ 
+
+nav a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+ 
+
+main {
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+   
+  }
+  
+  th {
+    background-color: #db4848;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    /* border-radius: 6px; */
+    
+    
+
+  }
+  
+  td {
+    /* border-radius: 6px; */
+    padding: 10px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #9ad1ce;
+  }
+  tr:nth-child(even) {
+    background-color: #8d5fb6;
+  }
+  
+  tr:hover {
+    background-color: #ffffffc2;
+    color: rgb(0, 0, 0);
+  }
+  
+td{
+
+   width: 0%;
+   text-align: center;
+  }
+  label{
+    display: inline-block;
+    font-size: 18px;
+  }
+  .drop{
+    position: absolute;
+    left: 73%;
+    margin-top: -3%;
+    color: #ffffff;
+    font-size: 19px; 
+  }
+  select{
+    background-color:rgb(241, 213, 213);
+    font-size: 19px;
+    border-radius: 7px;
+  }
+
+
+.home{
+
+  background-image: url("../images/ballop.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+
+
+}
+
+ footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 97px;
+    background-color: #77165f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width:100%
+ }
+
+  option{
+    font-size: medium !important ;
+  }
+ #teams{
+  font-size: 18px !important ;
+ }
+ 

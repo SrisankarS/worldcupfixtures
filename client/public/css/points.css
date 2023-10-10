@@ -1,0 +1,193 @@
+body, h1, h2, h3, p, ul, li {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+body {
+
+  font-family: Arial, sans-serif;
+  background-image: url("../images//cupblur2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover; 
+  overflow-x: hidden;
+  
+
+}
+
+
+
+header {
+
+ 
+background-color: #451d5f;
+
+color: rgb(245, 218, 218);
+
+text-align: center;
+
+padding: 20px;
+
+font-style: italic;
+
+
+}
+
+
+
+nav {
+
+  background-color: #851275;
+
+  text-align: center;
+
+}
+
+
+
+nav ul {
+
+  list-style-type: none;
+
+  padding: 10px;
+
+}
+nav ul li {
+
+  display: inline;
+
+  margin-right: 20px;
+
+}
+
+
+
+nav a {
+
+  text-decoration: none;
+
+  color: white;
+
+}
+
+
+
+main {
+
+  text-align: center;
+
+  padding: 20px;
+
+}
+
+table {
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 4px;
+  margin-top: 35px;
+  margin-left: 10%;
+
+  
+  
+}
+
+th {
+  background-color: #db4848;
+  color: #292929;
+  font-weight: bolder;
+  padding: 10px;
+  border: 5px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+td {
+  
+  padding: 10px;
+  border-radius: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #085988;
+ 
+}
+tr:nth-child(even) {
+  background-color: #6db6ac;
+}
+
+tr:hover {
+  background-color: #262a2c;
+  color: white;
+}
+tr{
+  padding-bottom:5px ;
+}
+td{
+
+ width: 0%;
+ text-align: center;
+}
+#poola{
+  background-color: #7e346b;
+}
+#poolb{
+  background-color: #7e346b;
+}
+#poolaname{
+  font-weight: bold;
+}
+#poolbname{
+  font-weight: bold;
+}
+label{
+  display: inline-block;
+}
+.drop{
+  position: absolute;
+  left: 73%;
+  margin-top: -3%;
+  color: #ffffff;
+  font-size: 19px; 
+}
+select{
+  background-color:rgb(241, 213, 213);
+  font-size: 19px;
+  border-radius: 10px;
+}
+
+
+.home{
+
+background-image: url("../images/2.jpg");
+background-repeat: no-repeat;
+max-width: 100%;
+background-size: cover;
+
+
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  margin-top: 90px;
+  background-color: #77165f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width:100%
+}
+
+.namepointstable{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: cursive;
+  color: #060707;
+  width: 100%;
+}
